@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
- * description: 'get the last digit of a number'
- * Return: always 0
- */
+  *main - Entry point
+  *Description: 'get the last digit of a number'
+  *Return: always 0
+  */
 int main(void)
 {
 	int n;
@@ -20,11 +20,11 @@ int main(void)
 	}
 	else if (ld == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, ld);
+		printf("Last digit of %d is %d and is 0\n", n, ld);
 	}
 	else
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
 	}
-	return (0);
+		return (0);
 }
