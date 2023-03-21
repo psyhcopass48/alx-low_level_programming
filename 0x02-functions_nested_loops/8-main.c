@@ -3,10 +3,10 @@
 /**
  * main - check the code
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
-	Jack_bauer();
-	return (0);
+    jack_bauer();
+    return (0);
 }
